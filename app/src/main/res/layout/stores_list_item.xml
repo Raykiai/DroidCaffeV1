@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/store_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            />
+
+        <TextView
+            android:id="@+id/store_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Store Title"
+            android:textSize="18dp"
+            android:textColor="#FFFF00"
+            android:textStyle="bold"
+            android:layout_alignBottom="@id/store_image"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:padding="8dp"
+            android:layout_marginTop="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Light"
+            />
+        <TextView
+            android:id="@+id/store_hours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open hours"
+            android:textColor="#212121"
+            android:layout_below="@id/store_title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:padding="8dp"
+            android:layout_marginTop="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Light"
+            android:drawableLeft="@drawable/ic_prep_time" />
+        <!--Lets add a horizontal line-->
+        <View
+            android:id="@+id/divider1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/store_hours"
+            android:background="#84FFFF"
+            />
+        <TextView
+            android:id="@+id/store_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Short description"
+            android:textColor="#212121"
+            android:layout_below="@id/store_hours"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:padding="8dp"
+            android:textStyle="italic"
+            android:theme="@style/ThemeOverlay.AppCompat.Light"
+            />
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/store_description"
+            android:background="#84FFFF"
+            />
+
+      <!--  <androidx.appcompat.widget.AppCompatRatingBar
+            android:id="@+id/rating_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyleIndicator"
+            android:numStars="5"
+            android:stepSize="0.1"
+            android:isIndicator="true"
+            android:layout_below="@id/store_description"
+            />  -->
+        <RelativeLayout
+            android:id="@+id/bottom_segment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider"
+            android:layout_marginTop="3dp">
+
+            <TextView
+                android:id="@+id/like_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="12dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_like"
+
+                android:text="Like" />
+
+
+
+            <TextView
+                android:id="@+id/share_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="12dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_share"
+                android:text="Share" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

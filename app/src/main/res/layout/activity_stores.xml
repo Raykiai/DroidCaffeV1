@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StoresActivity">
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/stores_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/stores_image"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:background="#880E4F"
+                android:scaleType="fitXY"
+
+                android:adjustViewBounds="true"/>
+
+            <TextView
+                android:id="@+id/stores_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recipe Title"
+                android:textSize="16dp"
+                android:textColor="#FFFF00"
+                android:textStyle="bold"
+                android:layout_alignBottom="@id/stores_image"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:padding="8dp"
+                android:layout_marginTop="4dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"
+                />
+            <TextView
+                android:id="@+id/stores_prep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prep "
+                android:textColor="#212121"
+                android:layout_below="@id/stores_title"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:padding="10dp"
+                android:layout_marginTop="4dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"
+                android:drawableLeft="@drawable/ic_prep_time" />
+            <!--Lets add a horizontal line-->
+            <View
+                android:id="@+id/stores_divider"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@id/stores_prep"
+                android:background="#84FFFF"
+                />
+            <TextView
+                android:id="@+id/stores_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Short description"
+                android:textColor="#212121"
+                android:layout_below="@id/stores_prep"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:padding="8dp"
+                android:textStyle="italic"
+                android:layout_marginTop="2dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"
+                />
+
+
+
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_below="@+id/stores_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Amazing restaurant to try out!! "
+            android:textStyle="bold"
+            android:textColor="#009688"/>
+    </RelativeLayout>
+</RelativeLayout>

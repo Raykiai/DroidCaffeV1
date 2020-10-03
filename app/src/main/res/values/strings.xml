@@ -1,0 +1,156 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Droid Cafe</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_dessert_recipe_fragment">Hello Dessert Recipe Fragment</string>
+    <string name="hello_pastries_fragment">Hello Pastries Fragment</string>
+    <string name="hello_stores_fragment">Hello Stores Fragment</string>
+    <string name="tab_label_1">Desserts</string>
+    <string name="tab_label_2">Pastries</string>
+    <string name="tab_label_3">Stores</string>
+    <string name="dessert_recipes">Desserts</string>
+    <string name="browse_recipes">Browse Recipes</string>
+    <string name="cafe_stores">Cafes</string>
+    <string name="rate_our_stores">Rate our stores</string>
+    <string name="pastry_title">Pastry Title</string>
+
+
+    <!-- Desserts string-->
+    <array name="desserts_images">
+        <item>@drawable/froyo</item>
+        <item>@drawable/fudge_cake</item>
+        <item>@drawable/ice_cream_bowl</item>
+        <item>@drawable/cream_sandwich</item>
+        <item>@drawable/ice_cream_cone</item>
+        <item>@drawable/mousse_dessert</item>
+        <item>@drawable/milkshake</item>
+        <item>@drawable/tiramisu_choco</item>
+
+    </array>
+    <string-array name="dessert_title">
+        <item>Frozen yogurt</item>
+        <item>Fudge cake</item>
+        <item>Ice cream bowl</item>
+        <item>Ice cream sandwich</item>
+        <item>Ice cream cone</item>
+        <item>Mousse dessert</item>
+        <item>Milkshake</item>
+        <item>Tiramisu</item>
+    </string-array>
+
+    <string-array name="dessert_prep">
+        <item>Prep time : Self serve</item>
+        <item>Readily available</item>
+        <item>Prep time : 15min</item>
+        <item>Prep time : 20min</item>
+        <item>Prep time : 8min</item>
+        <item>Prep and cook time : 2hrs</item>
+        <item>Prep time : 5min</item>
+        <item>Prep and cook time : 1hr</item>
+    </string-array>
+
+    <string-array name="dessert_description">
+        <item>Self serve Froyo with great toppings</item>
+        <item>Fudge flavour with whipped cream and choco syrup</item>
+        <item>Comes with delicious wafer bowl and fruit toppings</item>
+        <item>Delicious and sweet Oreo ice cream sandwich</item>
+        <item>Delicious ice cream on wafer cone</item>
+        <item>Three tier mousse flavours with chocolate shavings</item>
+        <item>Oreo milkshake with whipped cream and chocolate syrup</item>
+        <item>Sweet sweet Tiramisu. New dessert. Try it out!!</item>
+    </string-array>
+
+
+    <!--Pastries string -->
+    <array name="bakes_images">
+        <item>@drawable/donut</item>
+        <item>@drawable/chocolate_cake</item>
+        <item>@drawable/berry_tart</item>
+        <item>@drawable/raspberry_tart</item>
+        <item>@drawable/waffles</item>
+        <item>@drawable/apple_pie_slice</item>
+        <item>@drawable/cinnamon_roll</item>
+        <item>@drawable/chocolate_cookies</item>
+
+    </array>
+    <string-array name="bakes_title">
+        <item>Donut</item>
+        <item>Chocolate cake</item>
+        <item>Strawberry Tart</item>
+        <item>Raspberry Tart</item>
+        <item>Waffles</item>
+        <item>Apple Pie</item>
+        <item>Cinnamon rolls</item>
+        <item>Choco chip cookies</item>
+    </string-array>
+
+    <string-array name="bakes_prep">
+        <item>Readily available</item>
+        <item>Prep and cook time: 1 day booking</item>
+        <item>Prep and cook time : 1hr</item>
+        <item>Prep and cook time : 1hr</item>
+        <item>Prep time : 30min</item>
+        <item>Prep and cook time : 2hr</item>
+        <item>Prep and cook time : 1hr</item>
+        <item>Prep and cook time : 50min</item>
+    </string-array>
+
+    <string-array name="bakes_description">
+        <item>Donuts are glazed with frosting and sprinkled with rainbow sprinkles</item>
+        <item>Fresh chocolate cake requires booking and deopist payment. Delicious and fluffy cake</item>
+        <item>Sweet and sour strawberry Tart with actual fruits.</item>
+        <item>Sweet and sour Raspberry Tart with actual fruits</item>
+        <item>Freshly made waffles topped with fresh whipped cream and strawberries.</item>
+        <item>Sweet Sweet apple pie. Fresh apples are used.</item>
+        <item>Cinammon rolls topped off with heavy cream</item>
+        <item>Best Chocolate chip cookies. Freshly baked.</item>
+    </string-array>
+
+    <!--Stores string-->
+    <array name="restaurant_image">
+        <item>@drawable/artcafe</item>
+        <item>@drawable/urth_caffe</item>
+        <item>@drawable/cake_city</item>
+        <item>@drawable/java</item>
+        <item>@drawable/lava_latte</item>
+        <item>@drawable/cafe_magh</item>
+        <item>@drawable/cjs_cafe</item>
+        <item>@drawable/krista_caffe</item>
+
+
+    </array>
+    <string-array name="restaurant_title">
+        <item>Art Caffe</item>
+        <item>Urth Caffe</item>
+        <item>Cake City</item>
+        <item>Java</item>
+        <item>Lava Latte</item>
+        <item>Cafe Maghreb</item>
+        <item>Cjs</item>
+        <item>Krista Caffe</item>
+    </string-array>
+
+    <string-array name="restaurant_hours">
+        <item>Open hours : 8:30am - 6:00pm</item>
+        <item>Open hours : 9:30am - 8:00pm</item>
+        <item>Open hours : 6:30am - 7:00pm</item>
+        <item>Open hours : 7:00am - 9:00pm</item>
+        <item>Open hours : 8:30am - 10:00pm</item>
+        <item>Open hours : 8:00am - 9:50pm</item>
+        <item>Open hours : 6:00am - 7:00pm</item>
+        <item>Open hours : 7:00am - 9:00pm</item>
+    </string-array>
+
+    <string-array name="restaurant_description">
+        <item>Enjoy wonderful art with great ambience as you enjoy your coffee. Located in Lavington</item>
+        <item>Great International delicasies, baked goods and several choices of the finest coffee. Located in Westlands</item>
+        <item>Wonderful cakes and pastries. They also offer amazing drinks and desserts. Located in Westlands</item>
+        <item>Several choices to pick for well prepared coffee drinks and pastries. Great ambience and art decore. Located in CBD</item>
+        <item>Arabic decor and art in the Caffe. Wonderful pastries , coffe and spiced tea. Located in Westlands</item>
+        <item> Delicious delicasies and drinks with Great decor, live jazz band performance and great customer service.Located in CBD</item>
+        <item>One of the best Caffe in Nairobi with wonderful ambience, affordable and delicious food. Located in Lavington</item>
+        <item>Assortments of pastries and drinks are offered. Great customer service and ambience. Located in Westlands</item>
+    </string-array>
+
+</resources>

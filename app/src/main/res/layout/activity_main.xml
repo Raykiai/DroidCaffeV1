@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <androidx.appcompat.widget.Toolbar
+       android:id="@+id/tool_bar"
+       app:logo="@mipmap/ic_my_logo"
+       app:subtitleTextAppearance="@style/app_title"
+       android:layout_width="match_parent"
+       android:layout_height="48dp"
+
+       android:layout_alignParentTop="true"
+       android:background="@color/dark_toolBar"
+       android:minHeight="?attr/actionBarSize"
+       android:theme="@style/ThemeOverlay.AppCompat.Dark"
+       app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+
+       />
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tool_bar"
+        android:background="@color/dark_toolBar"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+<androidx.viewpager.widget.ViewPager
+    android:id="@+id/view_pager"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/tab_layout"
+/>
+
+</RelativeLayout>
